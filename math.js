@@ -14,18 +14,7 @@ const result = findingBadData(sampleInput);
 
 
 // Problem Number -2
-function evenOdd(str) {
-    if (typeof str !== 'string') {
-        return "Please Enter String";
-    }
-    if (str.length % 2 === 0) {
-        return "Even";
-    }
-    else {
-        return "Odd";
-    }
-}
-// console.log(evenOdd("chatgpt"));
+
 
 // Problem Solving 3
 
