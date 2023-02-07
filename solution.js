@@ -1,8 +1,10 @@
 
 // Problem number-1 and solution-
 
+//Function Description: The described function takes a positive number as an input and returns the result. Also if the input is not a positive numbers(negative, string and zero as well), it will return an error message.
+
 function mindGame(number) {
-    if (typeof number !== 'number' || number < 0) {
+    if (typeof number !== 'number' || number <= 0) {
         return "Please Enter a valid Number";
     }
     const calculation = ((((number * 3) + 10) / 2) - 5);
@@ -10,12 +12,13 @@ function mindGame(number) {
 
 }
 
-//console.log(mindGame(-34));
+
 
 
 
 // Problem number-2 and solution-
 
+//Function Description: This function takes a string input and returns 'even' or 'odd' based on the number of characters in the string. Also if the input is not a string it will return an error message.
 
 function evenOdd(stringLength) {
     if (typeof stringLength !== 'string') {
@@ -29,11 +32,13 @@ function evenOdd(stringLength) {
     }
 
 }
-//console.log(evenOdd(27));
+
 
 
 
 // Problem number-3 and solution-
+
+//Function Description: This function takes a number as input, calculates the difference between it and 7, and returns either the difference or twice the input value, depending on the conditions.
 
 function isLGSeven(number1) {
     if (typeof number1 !== 'number') {
@@ -47,13 +52,15 @@ function isLGSeven(number1) {
         return result1 * 2;
     }
 }
-//console.log(isLGSeven('-15'));
+
 
 
 
 
 
 // Problem number-4 and solution-
+
+//Function Description: This function takes a number array as input, counts the number of negative elements, and returns the result, along with an error message if the input is not an array.
 
 function findingBadData(array1) {
 
@@ -71,11 +78,15 @@ function findingBadData(array1) {
     return badDataCount;
 
 }
-//console.log(findingBadData([2, -5, -7, -13]));
+
 
 
 
 // Problem number-5 and solution-
+
+
+//Function Description: The function takes three numbers as parameters, calculates the total number of diamonds obtained by adding all three friends' gems, and returns the result, with an error message if the inputs are not numbers.
+
 
 function gemsToDiamond(n1, n2, n3) {
 
@@ -102,6 +113,6 @@ function gemsToDiamond(n1, n2, n3) {
 
 }
 
-console.log(gemsToDiamond(1, 1, 1));
+
 
 
